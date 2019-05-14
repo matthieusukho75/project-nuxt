@@ -1,0 +1,19 @@
+{
+  "livres": [
+    {
+      "id": 1,
+      "title": "Livre1",
+      "author": "Matthieu"
+    },
+    {
+      "id": 2,
+      "title": "Livre2",
+      "author": "Delpierro"
+    },
+    {
+      "id": 3,
+      "title": "Livre3",
+      "author": "Président"
+    }
+  ]
+}
