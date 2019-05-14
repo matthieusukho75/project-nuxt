@@ -7,6 +7,9 @@
                 {{livre.title }}
                 </nuxt-link>
                  <button v-on:click="deleteBook(livre.id)" type="button" class="btn btn-primary">Supprimer le livre</button>
+                 <nuxt-link :to="{name: 'livres-id-edit', params: {id: livre.id}}">
+                 <button  type="button" class="btn btn-primary">Modifier le livre</button>
+                 </nuxt-link>
             </li>
         </ul>
     </div>
