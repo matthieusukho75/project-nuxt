@@ -48,14 +48,11 @@ export default {
 
   generate: {
     routes: [
-      'livres/create',
-      'livres/list',
-      'livres/1/edit',
-      'livres/2/edit',
-      'livres/3/edit',
-      'livres/1/',
-      'livres/2',
-      'livres/3',
+      '/livres/create',
+      '/livres/list',
+      '/livres/1/',
+      '/livres/2',
+      '/livres/3',
     ]
   },
   /*
